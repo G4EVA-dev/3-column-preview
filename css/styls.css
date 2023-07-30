@@ -84,7 +84,7 @@ button:hover{
 @media (max-width: 950px) {
   .items{
     flex-direction: column;
-    padding: 5rem 0;
+    padding: 2rem 0;
   }
 
   .item{
