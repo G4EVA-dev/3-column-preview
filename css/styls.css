@@ -1,0 +1,90 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.item{
+  background:hsl(31, 77%, 52%);
+  max-width: 17rem;
+  min-height: 25rem;
+  padding: 2.5rem;
+}
+
+.items h1{
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+}
+
+.item p{
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.3rem;
+  margin-top: 1.5rem;
+}
+
+
+.item .image{
+  margin-bottom: 1.5rem;
+  cursor: pointer;
+} 
+
+.item button{
+  margin-top: 4.5rem;
+  font-size: larger;
+  padding: 10px 30px;
+  border-radius: 25px;
+  outline: none;
+  border: 2px solid hsl(0, 0%, 95%);
+  color: hsl(31, 77%, 52%);
+  cursor: pointer;
+}
+
+.items{
+  background-color: hsl(0, 0%, 95%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.sedans{
+  border-radius: 10px 0 0 10px;
+}
+
+.suvs{
+  background-color: hsl(184, 100%, 22%);
+ }
+
+.luxury{
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0px 10px 10px 0;
+}
+
+.suvs button{
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury button{
+  color: hsl(179, 100%, 13%);
+}
+
+button:hover{
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+}
+
+@media (max-width: 950px) {
+  .items{
+    flex-direction: column;
+    padding: 5rem 0;
+  }
+
+  .item{
+    min-width: 22rem;
+    border-radius: 0;
+  }
+}
