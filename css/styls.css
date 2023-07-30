@@ -81,10 +81,14 @@ button:hover{
   color: hsl(0, 0%, 95%);
 }
 
+footer{
+  font-family: 'Lexend Deca', sans-serif;
+  margin-bottom: 5px;
+}
+
 @media (max-width: 950px) {
   .items{
     flex-direction: column;
-    padding: 1rem 0;
   }
 
   .item{
